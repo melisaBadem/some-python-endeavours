@@ -50,3 +50,4 @@ for turn in range(4):
         print("\nThe ship was on %d x %d" % (ship_row + 1, ship_col + 1))
         board[ship_row][ship_col] = "1"
         print_board(board)
+    i = input("Press Enter to exit: ")
